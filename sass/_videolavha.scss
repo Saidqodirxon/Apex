@@ -1,0 +1,27 @@
+.video {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .videolavha-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1rem;
+
+    .video {
+      width: 45%;
+      margin: 0 auto;
+
+      &:nth-child(3) {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .videolavha-wrapper .video {
+    width: 30%;
+  }
+}

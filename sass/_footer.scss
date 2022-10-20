@@ -1,0 +1,53 @@
+.body footer#main-footer {
+  color: $qora;
+}
+
+.body footer#main-footer h2 {
+  color: $qora;
+}
+
+footer#main-footer {
+  background-color: $yashil;
+  color: $oq;
+  padding: 1rem 0;
+
+  @media (min-width: 768px) {
+    .parent {
+      display: flex;
+      gap: 1rem;
+
+      & > * {
+        flex: 1;
+      }
+    }
+
+    form {
+      display: block;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  //
+
+  //
+  h2 {
+    color: $oq;
+  }
+
+  .logo {
+    margin: 1rem 0;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    span {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+  }
+}

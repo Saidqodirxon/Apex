@@ -1,0 +1,28 @@
+div i {
+  margin-left: 5px;
+}
+@media (min-width: 768px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .location-txt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1rem;
+    word-spacing: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .location-txt div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .location-txt :first-child div {
+    width: 300px;
+  }
+}

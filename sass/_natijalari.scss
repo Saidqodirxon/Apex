@@ -1,0 +1,34 @@
+img {
+  width: 50%;
+}
+
+.cards {
+  text-align: center;
+}
+.cards-body {
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .natija-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1rem;
+
+    .cards {
+      width: 45%;
+      margin: 0 auto;
+
+      &:nth-child(3) {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .natija-wrapper .cards {
+    width: 30%;
+  }
+}
